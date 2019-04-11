@@ -1,0 +1,163 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/06af8b02967d7ec7bb427f6768afd4f5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/fcae5b42027a2994d8abd18dd2fe7f29/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/fda9c662c301a84205bfef46168be00c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/27904f4482620e086a58bde2620cd0e2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1d4cfb53f736e916f3a46801bb0afae0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/b73272cd06f301073c597236cc69aad9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/e396a597e67d4093d91c5f2f50625d83/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9ef4d983086c82814f23c8e920d7716c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ecca8726c005cc40169c00d04e949aff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/864368519976839ad50ff8a668097b1f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/cd2d0aa7bfb90a3866242ae9016606c9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/63af255783cbb3104ff8a4f4adf888b6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/e8d05201a1dae3b847d88aded6230e59/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/83adb41178e95bd76dc5687a5c200650/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ea9a8bbf1a678a7b7ac9c38f30b913e8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b57a22877b5498a04eec9062de88e97d/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/dd2df6c909b071e03630c064fb21670c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/letu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f26175bef8f75445b6c414c1e6f8d576/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/d9ed49afe81d9273cf00ae89e179c6c5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/a9d513a609f967fac63a8a9aaf681615/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ec9ccf88c4efcf3e56fb95e68711cfe7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/letu/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/8d8e304e3edc1b759208543d496d600c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/letu/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3b9d1df3681e1db32d2f1a0aba2daa7d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/letu/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/215d4fcb3abd9376c0d8f1022184b7e9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/letu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f39e88a3253381d3f7a9ad618aede789/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ba4f117d2cd3c497b0c47a91353de9ec/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml
+		ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml
+		ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:4:5-81
+	android:name
+		ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:4:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:5:22-62
+uses-permission#android.permission.INTERNET
+ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:6:22-64
+application
+ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:7:5-23:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ea9a8bbf1a678a7b7ac9c38f30b913e8/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ea9a8bbf1a678a7b7ac9c38f30b913e8/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b57a22877b5498a04eec9062de88e97d/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b57a22877b5498a04eec9062de88e97d/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ea9a8bbf1a678a7b7ac9c38f30b913e8/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:10:9-41
+	android:icon
+		ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:11:9-40
+activity#cn.easyar.samples.helloarcloud.MainActivity
+ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:12:9-22:20
+	android:screenOrientation
+		ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:14:13-52
+	android:label
+		ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:16:13-45
+	android:configChanges
+		ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:15:13-93
+	android:name
+		ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:13:13-71
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml
+INJECTED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/06af8b02967d7ec7bb427f6768afd4f5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/06af8b02967d7ec7bb427f6768afd4f5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/fcae5b42027a2994d8abd18dd2fe7f29/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/fcae5b42027a2994d8abd18dd2fe7f29/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/fda9c662c301a84205bfef46168be00c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/fda9c662c301a84205bfef46168be00c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/27904f4482620e086a58bde2620cd0e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/27904f4482620e086a58bde2620cd0e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1d4cfb53f736e916f3a46801bb0afae0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1d4cfb53f736e916f3a46801bb0afae0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/b73272cd06f301073c597236cc69aad9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/b73272cd06f301073c597236cc69aad9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/e396a597e67d4093d91c5f2f50625d83/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/e396a597e67d4093d91c5f2f50625d83/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9ef4d983086c82814f23c8e920d7716c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9ef4d983086c82814f23c8e920d7716c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ecca8726c005cc40169c00d04e949aff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ecca8726c005cc40169c00d04e949aff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/864368519976839ad50ff8a668097b1f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/864368519976839ad50ff8a668097b1f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/cd2d0aa7bfb90a3866242ae9016606c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/cd2d0aa7bfb90a3866242ae9016606c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/63af255783cbb3104ff8a4f4adf888b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/63af255783cbb3104ff8a4f4adf888b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/e8d05201a1dae3b847d88aded6230e59/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/e8d05201a1dae3b847d88aded6230e59/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/83adb41178e95bd76dc5687a5c200650/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/83adb41178e95bd76dc5687a5c200650/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ea9a8bbf1a678a7b7ac9c38f30b913e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ea9a8bbf1a678a7b7ac9c38f30b913e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b57a22877b5498a04eec9062de88e97d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b57a22877b5498a04eec9062de88e97d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/dd2df6c909b071e03630c064fb21670c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/dd2df6c909b071e03630c064fb21670c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/letu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f26175bef8f75445b6c414c1e6f8d576/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/letu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f26175bef8f75445b6c414c1e6f8d576/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/d9ed49afe81d9273cf00ae89e179c6c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/d9ed49afe81d9273cf00ae89e179c6c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/a9d513a609f967fac63a8a9aaf681615/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/a9d513a609f967fac63a8a9aaf681615/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ec9ccf88c4efcf3e56fb95e68711cfe7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ec9ccf88c4efcf3e56fb95e68711cfe7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/letu/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/8d8e304e3edc1b759208543d496d600c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/letu/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/8d8e304e3edc1b759208543d496d600c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/letu/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3b9d1df3681e1db32d2f1a0aba2daa7d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/letu/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3b9d1df3681e1db32d2f1a0aba2daa7d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/letu/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/215d4fcb3abd9376c0d8f1022184b7e9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/letu/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/215d4fcb3abd9376c0d8f1022184b7e9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/letu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f39e88a3253381d3f7a9ad618aede789/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/letu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f39e88a3253381d3f7a9ad618aede789/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ba4f117d2cd3c497b0c47a91353de9ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/letu/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ba4f117d2cd3c497b0c47a91353de9ec/AndroidManifest.xml:20:5-44
+INJECTED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml
+INJECTED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml
+		ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml
+		ADDED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/src/main/AndroidManifest.xml

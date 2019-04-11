@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Wed Apr 10 17:13:44 CST 2019
+1.base=/Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/build/intermediates/transforms/mergeJniLibs/debug/0
+2.path=classes.dex
+0.baseType=DIRECTORY
+2.base=/Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/build/intermediates/transforms/dexMerger/debug/1
+2.set=DEX
+1.baseType=DIRECTORY
+count=3
+1.set=NATIVE_RESOURCE
+0.path=classes.dex
+0.set=DEX
+0.base=/Users/letu/Downloads/EasyAR_SDK_2.3.0_Basic_Samples_Android_2018-10-24/HelloARCloud/app/build/intermediates/transforms/dexMerger/debug/0
+2.baseType=DIRECTORY
+1.path=lib/armeabi-v7a/libEasyAR.so
