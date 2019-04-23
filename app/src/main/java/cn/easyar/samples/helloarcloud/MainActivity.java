@@ -39,8 +39,8 @@ public class MainActivity extends AppCompatActivity
     *  4. set key string bellow
     */
 
-    private static String key = "hsIUjczAdAYbWiW1bsFOGmzUjkxnBNjToAqptJbCyzllOIP6FkC5gHTpH6Hypp4U2Y4kWQzCoFCOBsVrf821EffY5eH0VGT9HI8A7sW204Z4sfp8wbGWUVYhsORUCeHo08eW8SIjJ4FbSQOk9uXs6OwWVrOZbRvOoruAEis5VafjBuHmQPW3JZUH01VoZw6elWXVn97c";
-    private static String cloud_server_address = "f416e382fd8d2a4a4067fd7510cbf81a.cn1.crs.easyar.com:8888";
+    private static String key = "16yCe8DuNzHB9RlRUy93H8e6uO90FIeZA5udYVprHZQhJNo7JqO16PvbFhIkG5peenX5eB5WHMARJEpH682sAeRewMbf0QmHQ0rHWv5eOWeqqCHVCo25pE5qi8zBgTBixewJlcCvuaM9vOoIaHcEydm4msjXNnKR7hHbAGqPNhAwpRnoskVjcpBFvdh3btzX4m8FJDfs";
+    private static String cloud_server_address = "f416e382fd8d2a4a4067fd7510cbf81a.cn1.crs.easyar.com:8080";
     private static String cloud_key = "e7c91f607707274b8bafa73e4c395815";
     private static String cloud_secret = "s8LWdsKkXGEmxhdN4XRToig2q30yNSYyiKaNEDQTkVrSi1LWmS5VRHMgiySxNrvvmjT3kj7lkuNl2L6eqrBF1HLzWcEbIU2XoyCEGY003i13AjRFNWZCTIAT8A1WAH2d";
     private GLView glView;

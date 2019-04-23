@@ -8,10 +8,13 @@
 
 package cn.easyar.samples.helloarcloud;
 
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.HashSet;
 
 import android.opengl.GLES20;
+import android.text.TextUtils;
+import android.util.Base64;
 import android.util.Log;
 
 import cn.easyar.CameraCalibration;
@@ -47,6 +50,7 @@ public class HelloAR
     private Vec2I view_size = new Vec2I(0, 0);
     private int rotation = 0;
     private Vec4I viewport = new Vec4I(0, 0, 1280, 720);
+    private static final String TAG = "HelloAR";
 
     public HelloAR()
     {
@@ -82,6 +86,7 @@ public class HelloAR
             @Override
             public void invoke(int status, ArrayList<Target> targets) {
                 if (status == CloudStatus.Success) {
+                    Log.e(TAG, "invoke: _^^^"+getUidFromBase64(targets.get(0).meta()) );
                     Log.i("HelloAR", "CloudRecognizerCallBack: Success");
                 } else if (status == CloudStatus.Reconnecting) {
                     Log.i("HelloAR", "CloudRecognizerCallBack: Reconnecting");
@@ -98,7 +103,7 @@ public class HelloAR
                             trackers.get(0).loadTarget(t, new FunctorOfVoidFromPointerOfTargetAndBool() {
                                 @Override
                                 public void invoke(Target target, boolean status) {
-                                    Log.i("HelloAR", String.format("load target (%b): %s (%d)", status, target.name(), target.runtimeID()));
+                                    Log.e("HelloAR--------", String.format("load target (%b): %s (%d)", status, target.name(), target.runtimeID(),target.meta()));
                                 }
                             });
                         }
@@ -175,8 +180,7 @@ public class HelloAR
         box_renderer.init();
     }
 
-    public void resizeGL(int width, int height)
-    {
+    public void resizeGL(int width, int height) {
         view_size = new Vec2I(width, height);
         viewport_changed = true;
     }
@@ -247,4 +251,14 @@ public class HelloAR
             frame.dispose();
         }
     }
+
+
+    public static String getUidFromBase64(String s) {
+            if (s == null){
+                return null;
+            }
+            String decodedString = new String(Base64.decode(s, Base64.DEFAULT));
+            return decodedString;
+    }
+
 }
