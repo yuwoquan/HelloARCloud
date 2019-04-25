@@ -1,9 +1,20 @@
 -- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:23:9-31:16
+	android:grantUriPermissions
+		ADDED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:27:13-47
+	android:authorities
+		INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:25:13-64
+	android:exported
+		ADDED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:24:13-67
 manifest
-ADDED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-25:12
+ADDED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-35:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ambrose/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/42160e815090693365540f27ac208ba3/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/ambrose/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/b352692eeaa4fcc7dc2dc60c4122b8e0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/ambrose/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/dd5d54e175f4b9dea2ac80af0ac8e683/AndroidManifest.xml:17:1-22:12
@@ -30,20 +41,20 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/ambrose/.gradle/cache
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/ambrose/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/3495f0145fa56415a6976cb3cfb66170/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/ambrose/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/61d4f9a459e75c8b06fb6e1493118869/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] /Users/ambrose/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/312067e35820c1d5340159ea5aaf63d4/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-35:12
 	package
 		ADDED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:3:5-45
 		INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-25:12
+		ADDED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-35:12
 		INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-25:12
+		ADDED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:2:1-35:12
 		INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:2:11-69
@@ -60,7 +71,7 @@ ADDED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/Androi
 	android:name
 		ADDED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:7:5-23:19
+ADDED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:7:5-33:15
 MERGED from [com.android.support:support-compat:28.0.0] /Users/ambrose/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c72197969074692f9acf84eb4531d748/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] /Users/ambrose/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c72197969074692f9acf84eb4531d748/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ambrose/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/dac08888e25ca3831eec612e00f02fba/AndroidManifest.xml:22:5-23:19
@@ -161,3 +172,9 @@ INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/And
 		INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml
 		ADDED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:28:9-30:58
+	android:resource
+		ADDED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:30:13-56
+	android:name
+		ADDED from /Users/ambrose/AndroidStudioProjects/HelloARCloud/app/src/main/AndroidManifest.xml:29:13-63

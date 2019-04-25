@@ -1,4 +1,4 @@
-#Tue Apr 23 15:00:39 CST 2019
+#Thu Apr 25 14:43:24 CST 2019
 base.0=/Users/ambrose/AndroidStudioProjects/HelloARCloud/app/build/intermediates/transforms/dexMerger/debug/1
 path.1=classes.dex
 renamed.1=classes2.dex

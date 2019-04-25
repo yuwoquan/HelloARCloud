@@ -44,13 +44,19 @@ public class HelloAR
     private CameraFrameStreamer streamer;
     private ArrayList<ImageTracker> trackers;
     private Renderer videobg_renderer;
-    private BoxRenderer box_renderer;
+    private ARVideo video = null;
+    private ArrayList<VideoRenderer> video_enderers;
+    private VideoRenderer current_video_renderer;
+    private int tracked_target = 0;
+    private int active_target = 0;
     private CloudRecognizer cloud_recognizer;
     private boolean viewport_changed = false;
     private Vec2I view_size = new Vec2I(0, 0);
     private int rotation = 0;
     private Vec4I viewport = new Vec4I(0, 0, 1280, 720);
     private static final String TAG = "HelloAR";
+    private String videoUrl = null;
+    private Boolean isSuccessScan = false;
 
     public HelloAR()
     {
@@ -72,11 +78,11 @@ public class HelloAR
             @Override
             public void invoke(int status) {
                 if (status == CloudStatus.Success) {
-                    Log.i("HelloAR", "CloudRecognizerInitCallBack: Success");
+                    Log.i("HelloAR", "CloudRecognizerInitCallBack: 初始化Success");
                 } else if (status == CloudStatus.Reconnecting) {
-                    Log.i("HelloAR", "CloudRecognizerInitCallBack: Reconnecting");
+                    Log.i("HelloAR", "CloudRecognizerInitCallBack: 初始化Reconnecting");
                 } else if (status == CloudStatus.Fail) {
-                    Log.i("HelloAR", "CloudRecognizerInitCallBack: Fail");
+                    Log.i("HelloAR", "CloudRecognizerInitCallBack: 初始化Fail");
                 } else {
                     Log.i("HelloAR", "CloudRecognizerInitCallBack: " + Integer.toString(status));
                 }
@@ -85,14 +91,22 @@ public class HelloAR
             private HashSet<String> uids = new HashSet<String>();
             @Override
             public void invoke(int status, ArrayList<Target> targets) {
+                if (isSuccessScan) {
+                    return;
+                }
                 if (status == CloudStatus.Success) {
+                    isSuccessScan = true;
+                    videoUrl = getUidFromBase64(targets.get(0).meta());
                     Log.e(TAG, "invoke: _^^^"+getUidFromBase64(targets.get(0).meta()) );
                     Log.i("HelloAR", "CloudRecognizerCallBack: Success");
                 } else if (status == CloudStatus.Reconnecting) {
+                    isSuccessScan = false;
                     Log.i("HelloAR", "CloudRecognizerCallBack: Reconnecting");
                 } else if (status == CloudStatus.Fail) {
+                    isSuccessScan = false;
                     Log.i("HelloAR", "CloudRecognizerCallBack: Fail");
                 } else {
+                    isSuccessScan = false;
                     Log.i("HelloAR", "CloudRecognizerCallBack: " + Integer.toString(status));
                 }
                 synchronized (uids) {
@@ -122,15 +136,22 @@ public class HelloAR
 
     public void dispose()
     {
+        if (video != null){
+            video.dispose();
+            video = null;
+        }
+        tracked_target = 0;
+        active_target = 0;
         for (ImageTracker tracker : trackers) {
             tracker.dispose();
         }
         trackers.clear();
+        video_enderers.clear();
         if (cloud_recognizer != null) {
             cloud_recognizer.dispose();
             cloud_recognizer = null;
         }
-        box_renderer = null;
+        current_video_renderer = null;
         if (videobg_renderer != null) {
             videobg_renderer.dispose();
             videobg_renderer = null;
@@ -172,12 +193,27 @@ public class HelloAR
 
     public void initGL()
     {
+        if (active_target !=0){
+            video.onLost();
+            video.dispose();
+            video = null;
+            tracked_target = 0;
+            active_target = 0;
+        }
         if (videobg_renderer != null) {
             videobg_renderer.dispose();
         }
         videobg_renderer = new Renderer();
-        box_renderer = new BoxRenderer();
-        box_renderer.init();
+//        current_video_renderer = new VideoRenderer();
+        video_enderers = new ArrayList<VideoRenderer>();
+        for (int i = 0; i <1 ; i++) {
+            VideoRenderer video_renderer=new VideoRenderer();
+            video_renderer.init();
+            video_enderers.add(video_renderer);
+        }
+//        current_video_renderer.init();
+        current_video_renderer = null;
+
     }
 
     public void resizeGL(int width, int height) {
@@ -237,12 +273,44 @@ public class HelloAR
                 int status = targetInstance.status();
                 if (status == TargetStatus.Tracked) {
                     Target target = targetInstance.target();
-                    ImageTarget imagetarget = target instanceof ImageTarget ? (ImageTarget)(target) : null;
-                    if (imagetarget == null) {
-                        continue;
+                    int id=target.runtimeID();
+                    if (active_target !=0 &&active_target != id){
+                        video.onLost();
+                        video.dispose();
+                        video = null;
+                        tracked_target = 0;
+                        active_target = 0;
                     }
-                    if (box_renderer != null) {
-                        box_renderer.render(camera.projectionGL(0.2f, 500.f), targetInstance.poseGL(), imagetarget.size());
+                    if (tracked_target == 0){
+                        if (video == null &&video_enderers.size()>0){
+                            Log.e(TAG, "render: 播放" );
+                            video = new ARVideo();
+                            video.openStreamingVideo(videoUrl,video_enderers.get(0).texId());
+//                            video.openVideoFile("fengyun.mp4",video_enderers.get(0).texId());
+                            current_video_renderer = video_enderers.get(0);
+                        }
+
+                    }
+                    if (video !=null){
+                        video.onFound();
+                        tracked_target = id;
+                        active_target = id;
+                    }
+                    ImageTarget imagetarget = target instanceof ImageTarget ? (ImageTarget)(target) : null;
+                    if (imagetarget != null) {
+                        if (current_video_renderer != null) {
+                            video.update();
+                            if (video.isRenderTextureAvailable()){
+                                current_video_renderer.render(camera.projectionGL(0.2f, 500.f), targetInstance.poseGL(), imagetarget.size());
+                            }
+                        }
+                    }
+
+                }else {
+                    if (tracked_target !=0){
+                        video.onLost();
+                        tracked_target = 0;
+                        Log.e(TAG, "render: 脱离视图" );
                     }
                 }
             }
@@ -254,11 +322,11 @@ public class HelloAR
 
 
     public static String getUidFromBase64(String s) {
-            if (s == null){
-                return null;
-            }
-            String decodedString = new String(Base64.decode(s, Base64.DEFAULT));
-            return decodedString;
+        if (s == null){
+            return null;
+        }
+        String decodedString = new String(Base64.decode(s, Base64.DEFAULT));
+        return decodedString;
     }
 
 }
